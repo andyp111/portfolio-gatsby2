@@ -43,7 +43,7 @@ const Projects = () => {
                     {projects.map((project, index) => {
                         return (
                             <Row noGutters={true}>
-                                <Col xs={12} lg={{span: 8, offset: 2}}>
+                                <Col xs={{span: 8, offset: 2}} lg={{span: 8, offset: 2}}>
                                     <ProjectList project={project}/>
                                 </Col>
                             </Row>
