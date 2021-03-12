@@ -11,10 +11,10 @@ const ProjectList = (props) => {
 
     return (
         <div className="list-container" style={{display: 'flex', flexDirection:'row', flexWrap: 'wrap', justifyContent:'center', position: 'relative', maxWidth: "100%"}}>
-            {isShown ? <img alt="" src={props.project.imgFile} style={{display: 'flex', width:'100%', position: 'relative', padding: '10px', opacity: '0.5'}}
+            {isShown ? <img alt="" src={props.project.imgFile} style={{display: 'flex', maxWidth:'100%', position: 'relative', padding: '10px', opacity: '0.5'}}
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)} />
-                : <img alt="" src={props.project.imgFile} style={{display: 'flex', width:'100%', position: 'relative', padding: '10px'}}
+                : <img alt="" src={props.project.imgFile} style={{display: 'flex', maxWidth:'100%', position: 'relative', padding: '10px'}}
                 onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)} />
                 }

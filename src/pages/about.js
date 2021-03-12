@@ -13,11 +13,11 @@ const About = () => {
             <Header />
         <div className="about">
             <Row noGutters={true}>
-                    <Col xs={{span: 6, offset: 3}} md={{span: 12, offset: 1}} lg={{span: 12, offset: 4}}> 
+                    <Col xs={{span: 12, offset: 1}} md={{span: 12, offset: 1}} lg={{span: 12, offset: 4}}> 
                         <div className="photo-container">
                             <div className="photo-wrapper">
-                                <img className="photo" src={Photo} alt="self" style={{height: "auto", maxWidth: '100%'}}/>
-                                <img className="photo2" src={group} alt="snowboard" style={{height: "auto", maxWidth: '100%'}}/>
+                                <img className="photo" src={Photo} alt="self" style={{maxWidth: '100%'}}/>
+                                <img className="photo2" src={group} alt="snowboard" style={{maxWidth: '100%'}}/>
                             </div>
                         </div>
                     </Col>
