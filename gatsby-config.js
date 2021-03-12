@@ -5,7 +5,6 @@ module.exports = {
     title: "andypham",
   },
   plugins: [
-    "gatsby-plugin-styled-components",
     "gatsby-plugin-sharp",
     "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
