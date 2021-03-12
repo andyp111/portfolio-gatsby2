@@ -39,7 +39,7 @@ const Projects = () => {
         <Container fluid={true}>
             <div>
                 <Header />
-                <div className="container" style={{display: 'flex', justifyContent: 'center', maxWidth: '2800px', flexDirection:'row', flexWrap:'wrap', padding: '0px', position: 'relative'}}>
+                <div className="container" style={{display: 'flex', justifyContent: 'center', maxWidth: '100%', flexDirection:'row', flexWrap:'wrap', padding: '0px', position: 'relative'}}>
                     {projects.map((project, index) => {
                         return (
                             <Row noGutters={true}>
