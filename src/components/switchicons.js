@@ -6,11 +6,15 @@ const SwitchIcons = (props) => {
     const handleLightClick = () => props.onClick && props.onClick('light');
     const windowGlobal = typeof window !== 'undefined' && window;
     let storage = windowGlobal.localStorage;
-    const [isDarkMode, handleDarkMode] = useState(storage);
+    let darkModeStorage;
+    if (storage) darkModeStorage = Boolean(storage.darkMode);
+    
+    console.log(darkModeStorage);
+    const [isDarkMode, handleDarkMode] = useState(darkModeStorage || false);
 
-    const lightOrCloud = eval(isDarkMode)
-        ? <RiLightbulbLine onClick={() => { handleDarkMode(false); handleLightClick() }} />
-        : <RiMoonCloudyLine onClick={() => { handleDarkMode(true); handleDarkClick() }} />
+    const lightOrCloud = (isDarkMode)
+        ? <RiLightbulbLine onClick={() => { handleDarkMode(!isDarkMode); handleLightClick() }} />
+        : <RiMoonCloudyLine onClick={() => { handleDarkMode(!isDarkMode); handleDarkClick() }} />
 
     return (
         <div>
