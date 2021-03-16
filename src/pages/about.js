@@ -13,7 +13,7 @@ const About = () => {
             <Header />
         <div className="about">
             <Row noGutters={true}>
-                    <Col xs={{span: 12, offset: 1}} md={{span: 12, offset: 1}} lg={{span: 12, offset: 4}}> 
+                    <Col xs={{span: 12, offset: 1}} md={{span: 12, offset: 1}} lg={{span: 12, offset: 4}} xl={{span: 3, offset: 5}}> 
                         <div className="photo-container">
                             <div className="photo-wrapper">
                                 <img className="photo" src={Photo} alt="self" style={{maxWidth: '100%'}}/>
@@ -21,7 +21,7 @@ const About = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col xs={{span: 12, offset: 1}} md={12} lg={{span: 12, offset: 3}}>
+                    <Col xs={{span: 12, offset: 1}} md={12} lg={{span: 12, offset: 3}} xl={{span: 6, offset: 4}}>
                         <div className="about-text">
                             <h1 className="about-header">Welcome!</h1>
                             <p className="about-p">I am a recent graduate from Hack Reactor's Software Engineer Immersive program. Growing up and being surrounded by new technologies blooming in the Silicon Valley, I've always been intrigued by it and how it improved me and my communities' daily lives. I've always wondered if it would be possible that I could one day help make a big impact as well. It wasn't until I picked up programming that I realized that I can, and will help make an impact too.</p>
