@@ -315,6 +315,7 @@ body.dark-mode ul {
     color: #fcf9f3;
     font-family: 'Lato', sans-serif;
     position: relative;
+    max-width: 80%;
 }
 
 
@@ -323,6 +324,7 @@ body.light-mode ul {
     color: black;
     font-family: 'Lato', sans-serif;
     position: relative;
+    max-width: 80%;
 }
 
 body.light-mode ul:hover {
@@ -372,3 +374,52 @@ body.dark-mode .nav-dark-light:hover{
 body.light-mode .nav-dark-light:hover{
     color:goldenrod
 }
+
+/* resume */
+.full-resume-page {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.resume-title {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+}
+
+.resume-applications {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+    max-width: 100%;
+}
+
+.resume-experience {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+    max-width: 100%;
+}
+
+.resume-column2 {
+    position: relative;
+    top: 15rem;
+    left: -4rem;
+}
+
+.resume-list {
+    max-width: 80%;
+}
+
+.full-resume-page > p {
+    line-height: 5px;
+    margin: 5px 0;
+}
+
