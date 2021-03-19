@@ -23,7 +23,7 @@ const ProjectList = (props) => {
                             }
                         {isShown && <a href={`/${projectName}`}><span key={props.index}
                             style={
-                                {position: 'absolute', zIndex: '100', color: 'black', top: '50%', left:'50%', transform: 'translate(-50%, -50%)', borderRadius: '5px', background: "transparent", color:"goldenrod", fontSize: '23px'}}
+                                {position: 'absolute', zIndex: '100', color: 'black', top: '50%', left:'50%', transform: 'translate(-50%, -50%)', borderRadius: '5px', background: "transparent", color:"goldenrod", fontSize: '23px', textShadow: '1.2px 1.2px gray' }}
                             onMouseEnter={() => setIsShown(true)}
                             onMouseLeave={() => setIsShown(false)}
                             onClick={() => hasBeenClicked(!isClicked)}>

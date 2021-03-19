@@ -8,6 +8,9 @@ const Resume = () => {
         <Container fluid={true}>
             <div>
                 <Header />
+                        <div style={{ position: 'relative', top: '50%', left: '50%'}}>
+                            <Button style={{ position: 'relative', top: '10%' }}><a href={`${resumeFile}`} download id="download-btn">Download</a></Button>
+                        </div>
                 <Row xs={1} md={2}>
                     <Col xs={12} md={6} lg={8} xl={8}>
                         <div className="full-resume-page">
@@ -96,13 +99,6 @@ const Resume = () => {
                                 <h1 style={{ fontSize: '15px' }}>Hack Reactor LA, Los Angeles, CA - SWE Certificate</h1>
                                 <p>October 2020 - January 2021</p>
                             </div>
-                        </div>
-                    </Col>
-                </Row>
-                <Row xs={2}>
-                    <Col xs={12} md={{ span: 12, offset: 6 }} lg={{ span: 12, offset: 6 }}>
-                        <div style={{ position: 'relative', top: '50%', maxHeight: '500px' }}>
-                            <Button style={{ position: 'relative', top: '10%' }}><a href={`${resumeFile}`} download id="download-btn">Download</a></Button>
                         </div>
                     </Col>
                 </Row>
