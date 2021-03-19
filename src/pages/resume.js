@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../components/header.js';
 import { Button, Container, Row, Col } from 'react-bootstrap';
-import resumeFile from '../../downloads/AndyPhamResume2021.pdf'
+import resumeFile from '../../downloads/AndyPhamResume2021.pdf';
+import { FiDownload } from 'react-icons/fi';
 
 const Resume = () => {
     return (
         <Container fluid={true}>
             <div>
                 <Header />
-                        <div style={{ position: 'relative', top: '50%', left: '50%'}}>
-                            <Button style={{ position: 'relative', top: '10%' }}><a href={`${resumeFile}`} download id="download-btn">Download</a></Button>
-                        </div>
+                <div style={{ position: 'relative', top: '50%', left: '50%' }}>
+                    <a href={`${resumeFile}`} download id="download-btn"><FiDownload size={30}/></a>
+                </div>
                 <Row xs={1} md={2}>
                     <Col xs={12} md={6} lg={8} xl={8}>
                         <div className="full-resume-page">
