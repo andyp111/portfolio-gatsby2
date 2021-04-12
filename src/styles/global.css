@@ -94,6 +94,14 @@ button > a:hover {
     width: 100%;
 }
 
+.img-area:hover .box-6 {
+    /* top: 2rem;
+    left: -12rem; */
+    top: 32.2rem;
+    
+    width: 60%;
+}
+
 .descrip {
     padding-top: 15px;
     font-size: smaller;

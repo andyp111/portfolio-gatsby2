@@ -3,7 +3,7 @@ import Header from '../components/header.js';
 import TrackCar from '../images/trackCardashboard.png';
 import SDC_Instances from '../images/sdcInstances.png';
 import fecOverview from '../images/overview2.png';
-import SpotifyPlaylist from '../images/spotify.png'
+import SpotifyAbout from '../images/SptfyAbout.png'
 import ProjectList from '../components/projectList';
 import Sptfy from './sptfy.js';
 import TrackCarMVP from './trackcar-mvp.js';
@@ -15,7 +15,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Projects = () => {
     let projects = [
         {
-            imgFile: SpotifyPlaylist,
+            imgFile: SpotifyAbout,
             comp: Sptfy,
             name: 'sptfy'
         },

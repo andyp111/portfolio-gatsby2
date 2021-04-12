@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Header from '../components/header.js'
-import Spotify from '../images/spotify.png';
+import SpotifyAbout from '../images/SptfyAbout.png';
+import SpotifyPlaylist from '../images/SptfyPlaylist.png';
+import SpotifyNew from '../images/SptfyNew.png';
 import { Container, Row, Col } from 'react-bootstrap'
 
 
@@ -16,7 +18,7 @@ const Sptfy = () => {
                             <p1 className="tech">React.js | Redux | Axios | CSS | Spotify API | Express | Git</p1>
                                 <br />
                                 <br />
-                            <p2 className="descrip">A full stack application that keeps track of user's top played songs, artists and plays user's created and followed playlists</p2>
+                            <p2 className="descrip">A full stack application that keeps track of user's top played songs and artists. Plays user's created and followed playlists. And suggests new tracks based on seeded genre and artist.</p2>
                                 <br />
                             <Button className="button" variant="dark" style={{color: 'goldenrod', top: '5%'}} href="https://github.com/andyp111/sptfy">Github</Button>
                     </Col>
@@ -26,8 +28,10 @@ const Sptfy = () => {
                         <div className="wrapper">
                        
                             <div className="img-area">
-                            
-                                <img src={Spotify} alt = "" class="img-box box-5"/>
+
+                                <img src={SpotifyAbout} alt = "" class="img-box box-1"/>
+                                <img src={SpotifyPlaylist} alt = "" class="img-box box-2"/>
+                                <img src={SpotifyNew} alt = "" class="img-box box-6"/>
                             
                             </div>
                         
