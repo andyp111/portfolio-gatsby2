@@ -26,7 +26,7 @@ const About = () => {
                             <h1 className="about-header">Welcome!</h1>
                             <p className="about-p">I am a recent graduate from Hack Reactor's Software Engineer Immersive program. Growing up and being surrounded by new technologies blooming in the Silicon Valley, I've always been intrigued by it and how it improved me and my communities' daily lives. I've always wondered if it would be possible that I could one day help make a big impact as well. It wasn't until I picked up programming that I realized that I can, and will help make an impact too.</p>
                             <p className="about-p">As a software developer, I am able to creatively challenge myself everyday and am excited to be able to work on new innovations destined to make a positive impact on communities. I’m currently looking for a full-time full stack developer role at a company that fosters creativity and innovation. </p>
-                            <p className="about-p">In my free time, I like to build computers with the latest hardware, discovering new progamming technologies, listening to and mixing music, and staying active by playing basketball and tennis.</p>
+                            <p className="about-p">In my free time, I like to build computers with the latest hardware, discover new progamming technologies, listen to and mix music, and stay active by playing basketball and tennis.</p>
                             <p className="about-p">Feel free to reach out anytime!</p>
                             <IconContext.Provider value={{ padding: "10px", verticalAlign: 'middle'}}>
                                 <div className="icons-container">
