@@ -55,23 +55,24 @@ const Resume = () => {
                             </div>
                             <div className="resume-experience">
                                 <h1 style={{ color: '#097ddb', fontSize: '30px' }}>EXPERIENCE</h1>
-                                <p><span style={{ fontWeight: 'bold' }}>NinjaCrab Studios,</span> Irvine CA — <span style={{ fontStyle: 'italic' }}>Software Engineer Intern</span></p>
-                                <p>February 2021 - Present</p>
+                                <p><span style={{ fontWeight: 'bold' }}>Est8Chain.io,</span> Remote — <span style={{ fontStyle: 'italic' }}>Freelance Software Engineer</span></p>
+                                <p>April 2021 - May 2021</p>
                                 <ul className="resume-list">
-                                    <li>Implementing new features for a mobile application game.</li>
-                                    <li>Practicing test driven development to ensure new features operate correctly on a mobile platform.</li>
+                                    <li>Architectured and developed a restful and horizontally scalable backend using a MERN stack in order to easily scale along with customer usage.</li>
+                                    <li>Constructed Front End components by following the company’s UX/UI design via Sketch while utilizing the MVC model.</li>
+                                    <li>Deployed web2 application on AWS EC2 Ubuntu Server 20.04 in order to test functionality of the application within the company.</li>
+                                </ul>
+                                <p><span style={{ fontWeight: 'bold' }}>NinjaCrab Studios,</span> Irvine CA — <span style={{ fontStyle: 'italic' }}>Software Engineer Intern</span></p>
+                                <p>February 2021 - April 2021</p>
+                                <ul className="resume-list">
+                                    <li>Implemented new features for a mobile application game using Unity and C#.</li>
+                                    <li>Practiced test driven development to ensure new features operate correctly on a mobile platform.</li>
                                 </ul>
                                 <p><span style={{ fontWeight: 'bold' }}>Boot Barn Holdings Inc,</span> Irvine CA — <span style={{ fontStyle: 'italic' }}>Logistics Coordinator</span></p>
                                 <p>June 2018 - October 2019</p>
                                 <ul className="resume-list">
                                     <li>Coordinated 5,000 international LCL and FCL bookings annually to arrive at written purchase order dates and ensure orders were ready for release.</li>
                                     <li>Ensured vendor compliance through Conflict Minerals and Prop 65 to comply with SEC regulations and reporting. </li>
-                                </ul>
-                                <p><span style={{ fontWeight: 'bold' }}>Sunshine School USA,</span> San Jose CA — <span style={{ fontStyle: 'italic' }}>Teacher Assistant</span></p>
-                                <p>June 2018 - October 2019</p>
-                                <ul className="resume-list">
-                                    <li>Supervised, mentored, and instructed children ages 6-13 by monitoring homework, assisting with projects, and setting up recreational activities.</li>
-                                    <li>Assisted staff members with organization, preparation, and execution of special events by planning talent shows, promotion ceremonies, and field trips.</li>
                                 </ul>
                             </div>
 
